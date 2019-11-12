@@ -7,6 +7,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class MyFile implements Serializable {
   private MultipartFile multipartFile;
   private String description;
+  private int a;
 
   public MultipartFile getMultipartFile() {
     return multipartFile;
